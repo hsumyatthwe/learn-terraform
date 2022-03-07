@@ -15,7 +15,7 @@ resource "aws_instance" "my_ubuntu" {
 
 resource "aws_instance" "my_amazon_linux" {
   ami           = "ami-0b9f27b05e1de14e9"
-  instance_type = "t3.micro"
+  instance_type = "t3.small"
 
   tags = {
     Name  = "My-Amazon-Server"
